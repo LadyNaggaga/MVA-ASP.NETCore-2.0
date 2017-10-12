@@ -18,9 +18,11 @@ Razor Pages is a new feature of ASP.NET Core MVC that makes coding page-focused 
     - Tickets.cshtml- *Requests are routed to different pages based on their name and location on the file system.*
     
 **Example**
+
 | File name & path | matching url |
 | ------ | ------ |
 | /Pages/Ticket.cshtml  | /Ticket  |
 | /Pages/Beyonce/Ticket.cshtml | /Beyonce/Ticket  |
+
 - Show the Code behind 
     - Show the Page Model for the Tickets page 
