@@ -8,8 +8,8 @@
 - [Console to web app](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/ConsoletoWebApp.md) 
 - [Add a basic page](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/ConsoletoWebApp.md#module-121-add-a-basic-page)
 - [Introduction to Razor page](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/RazorPages.md)
-- [Create a form](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/CRUD-RazorPages.md)
-- [Logging and diagnostics]
+- [Create a form](/Beginners/CRUD-RazorPages.md)
+- [Logging and diagnostics](/Beginners)
 
 ## Intermediate Day 
 - Introductions 
