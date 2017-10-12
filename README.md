@@ -1,15 +1,15 @@
 # ASP.NET Core 2.0 MVA 
 
 ## Beginners Course 
-- [Introduction to ASP.NET Core](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/GettingStarted.md#module-11--getting-started-with-aspnet-core) 
-- [Download & Install the .NET Core SDK](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/GettingStarted.md#module-11--getting-started-with-aspnet-core)
-- [Introduction to the .NET CLI](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/GettingStarted.md#module-111--introduction-to-the-net-cli--templating) 
-- [Build a Console app](/Beginners/)
-- [Console to web app](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/ConsoletoWebApp.md) 
-- [Add a basic page](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/ConsoletoWebApp.md#module-121-add-a-basic-page)
-- [Introduction to Razor page](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/RazorPages.md)
+- [Introduction to ASP.NET Core](/Beginners/GettingStarted.md#module-11--getting-started-with-aspnet-core) 
+- [Download & Install the .NET Core SDK](/Beginners/GettingStarted.md#module-11--getting-started-with-aspnet-core)
+- [Introduction to the .NET CLI](/Beginners/GettingStarted.md#module-111--introduction-to-the-net-cli--templating) 
+- [Build a Console app](/Beginners/GettingStarted.md#module-111--introduction-to-the-net-cli--templating)
+- [Console to web app](/Beginners/ConsoletoWebApp.md) 
+- [Add a basic page](/Beginners/ConsoletoWebApp.md#module-121-add-a-basic-page)
+- [Introduction to Razor page](/Beginners/RazorPages.md)
 - [Create a form](/Beginners/CRUD-RazorPages.md)
-- [Logging and diagnostics](/Beginners)
+- [Logging and diagnostics](/Beginners/logging.md)
 
 ## Intermediate Day 
 - Introductions 
