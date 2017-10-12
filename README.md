@@ -1,10 +1,10 @@
 # ASP.NET Core 2.0 MVA 
 
 ## Beginners Course 
-- Introduction to ASP.NET Core  
-- Download & Install the .NET Core SDK 
-- Introduction to the .NET CLI 
-- Build a Console app
+- [Introduction to ASP.NET Core](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/GettingStarted.md#module-11--getting-started-with-aspnet-core) 
+- [Download & Install the .NET Core SDK](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/GettingStarted.md#module-11--getting-started-with-aspnet-core)
+- [Introduction to the .NET CLI](https://github.com/LadyNaggaga/MVA-ASP.NETCore-2.0/blob/master/Beginners/GettingStarted.md#module-111--introduction-to-the-net-cli--templating) 
+- [Build a Console app](/Beginners/)
 - Console to web app 
 - Dynamic pages
 - Introduction to Razor page
