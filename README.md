@@ -16,6 +16,12 @@
 - Tag Helpers
 - Entity Framework Core 
 - Authentication and Authorization 
+    - **Introduction to Authentication** overview
+    - **Introduction to Authorization** Overview 
+        - Cookie Authentication 
+        - Roles and Simple Policies.
+        - Code Based Policies
+        - Authorization Resource Based Requirements and Authoring in Views 
 - Web APIs
 - SPA 
 - Publishing - App Services and Containers
