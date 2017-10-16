@@ -91,7 +91,7 @@ In this mini module we are going create a basic page that returns date and time.
     ```"Message":" Config calling"; ```
 - Read the property 
 ```sh
-    @using Microsft.Extension.Configuration
+    @using Microsoft.Extension.Configuration
     @inject IConfiguration Configuration   
     <h2>@Configuration["Message"]</h2> 
 ```
