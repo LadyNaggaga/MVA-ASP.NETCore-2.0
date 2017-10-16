@@ -13,17 +13,17 @@
 
 ## Intermediate Day 
 - Introductions 
-- Tag Helpers
-- Entity Framework Core 
-- Authentication and Authorization 
+- [Tag Helpers](/Intermediate/TagHelpers.md)
+- [Entity Framework Core](/Intermediate/EntityFramework.md) 
+- [Authentication and Authorization](/Intermediate/Authentication&Authorization.md)
     - **Introduction to Authentication** overview
     - **Introduction to Authorization** Overview 
         - Cookie Authentication 
         - Roles and Simple Policies.
         - Code Based Policies
         - Authorization Resource Based Requirements and Authoring in Views 
-- Web APIs
-- SPA 
+- [Web APIs](/Intermediate/WebAPI.md)
+- [SPA](/Intermediate/SPA.md) 
 - Publishing - App Services and Containers
 
 ## Advanced Day 

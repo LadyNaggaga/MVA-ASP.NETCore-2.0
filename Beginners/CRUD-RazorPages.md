@@ -4,9 +4,9 @@ Creating a simple CRUD app using Razor Pages.
 
 *Prerequisite*: Module 1.3.0 Introduction to Razor pages
 
-#### Add a model for Tickets
+#### Add a data  model for Tickets
 ```sh 
-    public class Tickets 
+    public class Ticket
     { 
         public int Id { get; set; } 
   
@@ -14,6 +14,7 @@ Creating a simple CRUD app using Razor Pages.
         public string Name { get; set; } 
   
         [Required] 
+        [EmailAddress]
         public string Email { get; set; } 
  
         [Required] 
@@ -22,8 +23,8 @@ Creating a simple CRUD app using Razor Pages.
 ```
 #### Create a form 
 ```sh 
-    <form method="post"> 
-    <p>Please enter your contact info to hear about our fine products!</p> 
+<form method="post"> 
+    <p>Enter your information to find out when Beyonce gets to town!</p> 
     <div asp-validation-summary="All"></div> 
     <div> 
         <label asp-for="Ticket.Name"></label> 
@@ -55,13 +56,16 @@ Open the Page Model
         } 
  
         Return RedirectToPage("/Index"); 
+        //later we learn to save this to a database 
     }   
 ```
-- Model Bind
+- ModelBind
 ```sh
     [BindProperty] 
     public Ticket Ticket { get; set; } 
 ```
+Run the application. 
+#### Next step save to DB.
 - Save ticket information
     - Add DBContext
 ```sh
@@ -80,10 +84,10 @@ public class ApplicationDbContext : DbContext
         public DbSet<Ticket> Tickets { get; set; }  
     } 
 ```
-- Add the ApplicationDbContext as a service
+- Add the ApplicationDbContext as a service in Startup.cs 
 ```sh
 services.AddDbContext<ApplicationDbContext>(options =>  
-    options.UseInMemoryDatabase("RazorPageDemo")); 
+    options.UseInMemoryDatabase("name")); 
 
 ```
 - Inject the ApplicationDbContext to your page ```@inject ApplicationDbContext Db  ```
